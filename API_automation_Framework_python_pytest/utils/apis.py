@@ -10,5 +10,6 @@ class APIS:
 
     def get(self, endpoint):
         url = f'{self.BASE_URL}/{endpoint}'
-        response = requests.get(url, headers=self.header)
-        return response
+        return requests.get(url, headers=self.header)
+        #response = requests.get(url, headers=self.header)
+        #return response
